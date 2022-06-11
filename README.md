@@ -1,2 +1,2 @@
 # exodia-ISO
-source ISO
+Home Edition source ISO
