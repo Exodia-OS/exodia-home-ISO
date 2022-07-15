@@ -1,0 +1,52 @@
+# Automatic per-country routing of the mirrors below.
+Server = https://geo-mirror.chaotic.cx/$repo/$arch
+
+# CDN (delayed syncing)
+# By: Fosshost
+Server = https://cdn-mirror.chaotic.cx/$repo/$arch
+
+# USA
+# * Utah, By: ash <t.me/the_ashh>
+Server = https://us-ut-mirror.chaotic.cx/$repo/$arch
+
+# Spain
+# * By: JKANetwork
+Server = https://es-mirror.chaotic.cx/$repo/$arch
+# * By: Ícar
+Server = https://es-2-mirror.chaotic.cx/$repo/$arch
+
+# Germany
+# * By: Nico
+Server = https://de-mirror.chaotic.cx/$repo/$arch
+# * By: ParanoidBangL
+Server = https://de-2-mirror.chaotic.cx/$repo/$arch
+# * By: itsTyrion
+Server = https://de-3-mirror.chaotic.cx/$repo/$arch
+# * By: redgloboli
+Server = https://de-4-mirror.chaotic.cx/$repo/$arch
+
+# France
+# * By: IRC-Nerds <t.me/@sorcerer420>
+Server = https://fr-mirror.chaotic.cx/$repo/$arch
+
+# São Carlos, Brazil
+# * By: Universidade Federal de São Carlos
+Server = https://br-mirror.chaotic.cx/$repo/$arch
+
+# Seoul, Korea
+# * By: Ryoichi <t.me/maakpain>
+Server = https://kr-mirror.chaotic.cx/$repo/$arch
+
+# Bulgaria
+# * By: Sudo Man <github.com/sakrayaami>
+Server = https://bg-mirror.chaotic.cx/$repo/$arch
+
+# Toronto, Canada
+# * By freebird54
+Server = https://ca-mirror.chaotic.cx/$repo/$arch
+
+# India
+# * By viruz4274 (Mumbai)
+Server = https://in-mirror.chaotic.cx/$repo/$arch
+# * By Naman (Kaithal)
+Server = https://in-2-mirror.chaotic.cx/$repo/$arch
