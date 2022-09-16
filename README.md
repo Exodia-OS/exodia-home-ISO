@@ -7,6 +7,6 @@ Home Edition source ISO
 
 mkdir {work,out} 
 
-sudo ./makeExodiaISO -v -w work -o out src 
+sudo ./makeExodiaISO -v -w work -o out exodia-home 
 
 ~~~
