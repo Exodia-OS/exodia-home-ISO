@@ -412,7 +412,7 @@ exodia-scripts
 
 # ---------- Exodia Apps ---------- #
 
-exodia-apps
+#exodia-apps
 about-exodia-os
 exodia-help
 exodia-welcome
