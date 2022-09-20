@@ -1,4 +1,6 @@
-alsa-utils
+##-------- Base Packages ---------------------##
+
+#alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
@@ -53,7 +55,7 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-livecd-sounds
+#livecd-sounds
 lsscsi
 lvm2
 lynx
@@ -61,10 +63,11 @@ man-db
 man-pages
 mc
 mdadm
-memtest86+
+#memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-firmware
 modemmanager
 mtools
 nano
@@ -130,6 +133,7 @@ zsh
 
 # -------- Xorg Packages -------- #
 
+xorg
 xorg-server
 xorg-xbacklight
 xorg-fonts-misc
@@ -172,6 +176,8 @@ nvidia-settings
 
 # -------- WirelessPackages (Networking/Bluetooth/etc..) -------- #
 
+# Networking #
+
 inetutils
 firefox
 google-chrome
@@ -180,6 +186,8 @@ networkmanager-openvpn
 nethogs
 nm-connection-editor
 net-tools
+
+# bluetooth #
 
 bluez
 bluez-utils
@@ -329,7 +337,7 @@ slop
 xfce4-power-manager
 xfce4-settings
 xsettingsd
-xfce4-notifyd
+#xfce4-notifyd
 
 # -------- QT Packages -------- #
 
@@ -341,6 +349,7 @@ qt5ct
 boost
 calamares
 exodia-calamares
+exodia-install-scripts
 
 # -------- Hypervisors -------- #
 
@@ -374,14 +383,14 @@ i3lock-color
 ksuperkey
 light
 networkmanager-dmenu-git
-# obmenu-generator
+#obmenu-generator
 perl-linux-desktopfiles
 picom-ibhagwan-git
 polybar
 timeshift
 xfce-polkit
 yay
-
+cava
 
 #########################################################
 #                    Exodia packages                    #
@@ -412,7 +421,7 @@ exodia-scripts
 
 # ---------- Exodia Apps ---------- #
 
-#exodia-apps
+# exodia-apps
 about-exodia-os
 exodia-help
 exodia-welcome
