@@ -36,7 +36,7 @@ gpart
 gpm
 gptfdisk
 # grml-zsh-config
-grub
+# grub
 hdparm
 hyperv
 intel-ucode
@@ -179,7 +179,7 @@ nvidia-settings
 # Networking #
 
 inetutils
-firefox
+# firefox
 google-chrome
 networkmanager
 networkmanager-openvpn
@@ -231,7 +231,6 @@ pulseaudio-equalizer-ladspa
 
 # -------- Files -------- #
 
-ranger
 highlight
 trash-cli
 ueberzug
@@ -246,6 +245,10 @@ unrar
 xarchiver
 xdg-user-dirs
 xdg-user-dirs-gtk
+
+## TUI ##
+ranger
+mc
 
 # -------- Multimedia -------- #
 
@@ -263,7 +266,7 @@ tumbler
 # -------- Terminals -------- #
 
 alacritty
-xfce4-terminal
+# xfce4-terminal
 
 # -------- Docs/Editors/etc.. -------- #
 
@@ -307,6 +310,7 @@ pkg-config
 polkit
 powertop
 python2
+python-pip
 sshfs
 udisks2
 wmctrl
@@ -337,7 +341,6 @@ slop
 xfce4-power-manager
 xfce4-settings
 xsettingsd
-#xfce4-notifyd
 
 # -------- QT Packages -------- #
 
@@ -363,12 +366,13 @@ xf86-video-vmware
 
 os-prober
 lsb-release
+exodia-repo/grub
 exodia-grub-theme
 
 # -------- Plymouth -------- #
 
-plymouth
-#plymouth-theme
+# plymouth
+# plymouth-theme
 
 # -------- Display Manager -------- #
 
@@ -391,6 +395,7 @@ timeshift
 xfce-polkit
 yay
 cava
+lsd
 
 #########################################################
 #                    Exodia packages                    #
@@ -401,8 +406,9 @@ cava
 exodia-artworks
 exodia-cursors
 exodia-icons-all
+candy-icons-git
 exodia-themes
-exodia-backgrounds
+exodia-backgrounds-all
 exodia-pixmaps
 
 # ---------- Exodia Skeleton ---------- #
@@ -410,6 +416,7 @@ exodia-pixmaps
 exodia-os-skeleton
 exodia-skeleton
 exodia-fonts
+exodia-music
 
 exodia-text-editors
 exodia-vim
@@ -428,9 +435,32 @@ exodia-welcome
 
 exodia-hooks
 
-ani-cli-git
-ytfzf-git
+Exodia-TUI-Apps
+
+# ani-cli-git
+# browsh
+# hollywood  
+# termtyper-git  
+# ytfzf-git
+cmatrix
+## TUI brwosers ##
+
+w3m
+lynx 
+links
+elinks
+
+## TUI sys monitor ##
+
+duf
+top
+Htop
+bashtop
+ncdu
 
 chaotic-mirrorlist
 chaotic-keyring
 archlinux-keyring
+jgmenu
+powershell
+powershell-preview-bin
