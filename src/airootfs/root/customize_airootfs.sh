@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Script to perform several important tasks before `makeExodiaISO` create filesystem image.
+## Script to perform several important tasks before `makeExodiaISO` create filesystem image. ##
 
 set -e -u
 
@@ -47,5 +47,8 @@ xdg-user-dirs-gtk-update
 ## launch Help app on installed system instead of launching welcome app ##
 
 sed -i -e 's/exodia-welcome/exodia-help/g' /etc/skel/.config/bspwm/bspwmrc
+
+## copy grub theme to boot dir ##
+# cp -r /usr/share/grub/themes/exodia /boot/grub/themes/
 
 ## -------------------------------------------------------------- ##
