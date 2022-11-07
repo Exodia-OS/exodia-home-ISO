@@ -1,19 +1,16 @@
 # exodia-ISO
 Home Edition source ISO
 
-### before building download Exodia Music
-```bash
-git clone https://github.com/Exodia-OS/exodia-music.git
+### before building download [eDEX-UI](https://github.com/GitSquared/edex-ui/releases)
 
-```
-### copy Music dir to `exodia-home/airootfs/etc/skel/`
+#### copy [**`eDEX-UI-Linux-x86_64.AppImage`**](https://github.com/GitSquared/edex-ui/releases) to `src/airootfs/usr/local/bin/`
 
-### how to build 
+# building
 
 ~~~bash
 
 mkdir {work,out} 
 
-sudo ./makeExodiaISO -v -w work -o out exodia-home 
+sudo mkarchiso -v -w work -o out src 
 
 ~~~
