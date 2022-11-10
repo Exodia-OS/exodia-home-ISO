@@ -465,7 +465,7 @@ ncdu
 chaotic-mirrorlist
 chaotic-keyring
 archlinux-keyring
-blackarch-keyring
+# blackarch-keyring
 
 jgmenu
 powershell
