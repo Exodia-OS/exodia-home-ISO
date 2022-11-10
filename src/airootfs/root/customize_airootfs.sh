@@ -48,7 +48,8 @@ xdg-user-dirs-gtk-update
 
 sed -i -e 's/exodia-welcome/exodia-help/g' /etc/skel/.config/bspwm/bspwmrc
 
-## copy grub theme to boot dir ##
+## fix exodia-grub-theme ##
 cp -r /usr/share/grub/themes/exodia /boot/grub/themes/
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## -------------------------------------------------------------- ##

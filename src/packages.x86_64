@@ -425,6 +425,10 @@ exodia-vim
 exodia-NvChad
 
 exodia-bspwm
+
+# exodia-bspwm-predator
+# Predator-Sense-systemd-git
+
 exodia-omz
 exodia-scripts
 
@@ -461,8 +465,30 @@ ncdu
 chaotic-mirrorlist
 chaotic-keyring
 archlinux-keyring
+# blackarch-keyring
+
 jgmenu
 powershell
 powershell-preview-bin
 
 exodia-eww
+
+#########################################################
+#                   PentTest packages                   #
+#########################################################
+
+# blackarch-bluetooth
+# blackarch-drone
+# blackarch-networking
+# blackarch-nfc
+# blackarch-proxy
+# blackarch-scanner
+# blackarch-sniffer
+# blackarch-wireless
+
+# blackarch-social
+# blackarch-keylogger
+# blackarch-exploitation
+# blackarch-database
+# blackarch-cracker
+# blackarch-crypto
