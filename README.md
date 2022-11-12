@@ -14,3 +14,10 @@ mkdir {work,out}
 sudo mkarchiso -v -w work -o out src 
 
 ~~~
+
+# Contributing
+
+- fork 
+- change to dev branch `git checkout dev`
+- commit your changes
+- create a pull request
