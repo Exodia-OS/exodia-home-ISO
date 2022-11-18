@@ -365,10 +365,11 @@ xf86-video-vmware
 
 # -------- Grub -------- #
 
+exodia-grub-theme
 os-prober
 lsb-release
 exodia-repo/grub
-exodia-grub-theme
+
 
 # -------- Plymouth -------- #
 
