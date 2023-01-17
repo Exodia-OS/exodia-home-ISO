@@ -405,6 +405,8 @@ lsd
 #                    Exodia packages                    #
 #########################################################
 
+gtk-widget-factory-git
+
 # ---------- Exodia Artworks ---------- #
 
 exodia-artworks
