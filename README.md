@@ -12,9 +12,9 @@ Home Edition source ISO
     - #### copy [**`eDEX-UI-Linux-x86_64.AppImage`**](https://github.com/GitSquared/edex-ui/releases) to `src/airootfs/usr/local/bin/`
 - ### Use the hosted Repos
     - #### uncommented these lines
-    - ![](IMGs/1.png)
+     ![](IMGs/1.png)
     - #### then, commented these lines
-    - ![](IMGs/2.png)
+     ![](IMGs/2.png)
 
 # building
 
