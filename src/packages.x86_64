@@ -373,7 +373,7 @@ exodia-repo/grub
 
 # -------- Plymouth -------- #
 
-plymouth
+exodia-repo/plymouth
 exodia-plymouth-theme
 
 # -------- Display Manager -------- #
