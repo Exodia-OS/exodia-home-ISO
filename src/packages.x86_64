@@ -180,7 +180,7 @@ nvidia-settings
 
 inetutils
 firefox
-google-chrome
+# google-chrome
 networkmanager
 networkmanager-openvpn
 nethogs
@@ -248,7 +248,7 @@ xdg-user-dirs-gtk
 
 ## TUI ##
 ranger
-mc
+# mc
 
 # -------- Multimedia -------- #
 
@@ -407,55 +407,42 @@ lsd
 
 gtk-widget-factory-git
 
-# ---------- Exodia Artworks ---------- #
+# Exodia Artworks #
 
-exodia-artworks
+exodia-icons
 exodia-cursors
-exodia-icons-all
-candy-icons-git
 exodia-themes
-exodia-backgrounds-all
+exodia-backgrounds
+candy-icons-git
 exodia-pixmaps
 
-# ---------- Exodia Skeleton ---------- #
+# Exodia Skeleton #
 
-exodia-os-skeleton
 exodia-skeleton
-exodia-fonts
-exodia-music
-
 exodia-text-editors
-exodia-vim
-exodia-NvChad
-
+jgmenu
+powershell
+exodia-eww
 exodia-bspwm
+exodia-hooks
 
-# exodia-bspwm-predator
-# Predator-Sense-systemd-git
+# Exodia Apps #
 
-exodia-omz
-exodia-scripts
-
-# ---------- Exodia Apps ---------- #
-
-# exodia-apps
 about-exodia-os
 exodia-help
 exodia-welcome
 
-exodia-hooks
+## -------------- TUI Apps -------------- ##
 
-## TUI Apps ##
-
-Exodia-TUI-Apps
-cmatrix
+# Exodia-TUI-Apps
+# cmatrix
 
 ## brwosers ##
 
-w3m
+# w3m
 # lynx 
-links
-elinks
+# links
+# elinks
 
 ## sys monitor ##
 
@@ -464,35 +451,8 @@ htop
 bashtop
 ncdu
 
-## TUI Apps ##
+## -------------- TUI Apps -------------- ##
 
 chaotic-mirrorlist
 chaotic-keyring
 archlinux-keyring
-# blackarch-keyring
-
-jgmenu
-powershell
-powershell-preview-bin
-
-exodia-eww
-
-#########################################################
-#                   PentTest packages                   #
-#########################################################
-
-# blackarch-bluetooth
-# blackarch-drone
-# blackarch-networking
-# blackarch-nfc
-# blackarch-proxy
-# blackarch-scanner
-# blackarch-sniffer
-# blackarch-wireless
-
-# blackarch-social
-# blackarch-keylogger
-# blackarch-exploitation
-# blackarch-database
-# blackarch-cracker
-# blackarch-crypto
