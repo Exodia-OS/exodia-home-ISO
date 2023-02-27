@@ -14,7 +14,7 @@
 ## ------------ COLORS ------------ ##
 
 # Reset #
-Color_Off='\033[0m' # Text Reset
+RESET_COLOR='\033[0m' # Text Reset
 
 # Regular Colors #
 Black='\033[0;30m'  Red='\033[0;31m'     Green='\033[0;32m'  Yellow='\033[0;33m'
@@ -33,20 +33,20 @@ On_Black='\033[40m' On_Red='\033[41m'    On_Green='\033[42m' On_Yellow='\033[43m
 On_Blue='\033[44m'  On_Purple='\033[45m' On_Cyan='\033[46m'  On_White='\033[47m'
 
 echo ""
-echo -e "${BCyan}#############################${Color_Off}"
-echo -e "${BCyan}#      Git Push Script      #${Color_Off}"
-echo -e "${BCyan}#############################${Color_Off}"
+echo -e "${BCyan}#############################${RESET_COLOR}"
+echo -e "${BCyan}#      Git Push Script      #${RESET_COLOR}"
+echo -e "${BCyan}#############################${RESET_COLOR}"
 
 # get branch name (e.g master, main, etc... ) #
 Branch=$(git branch --show-current) 
 
-echo -e "\n${BRed}[*] Your Current Branch : ${BYellow}${Branch}${Color_Off}"
+echo -e "\n${BRed}[*] Your Current Branch : ${BYellow}${Branch}${RESET_COLOR}"
 
 # get new updates if it founded #
-echo -e "\n${BPurple}[+] Updating Repo... \n${Color_Off}"
+echo -e "\n${BPurple}[+] Updating Repo... \n${RESET_COLOR}"
 git pull 
 
-echo -e "\n${BPurple}[+] Adding new changes to the repo... \n${Color_Off}"
+echo -e "\n${BPurple}[+] Adding new changes to the repo... \n${RESET_COLOR}"
 git add --all .
 
 if [ "$1" == "-m" ];
@@ -57,8 +57,8 @@ then
 else
     # read commit comment from user #
     echo ""
-    echo -e "${BPurple}##################################${Color_Off}"
-    echo -e "${BPurple}# Write your commit comment! :-  #${Color_Off}"
+    echo -e "${BPurple}##################################${RESET_COLOR}"
+    echo -e "${BPurple}# Write your commit comment! :-  #${RESET_COLOR}"
     read yourCommit
 
     # commit changes#
@@ -71,4 +71,4 @@ echo ""
 git push -u origin $Branch
 
 # D O N E! #
-echo -e "\n${BGreen}[✔] D O N E \n${Color_Off}"
+echo -e "\n${BGreen}[✔] D O N E \n${RESET_COLOR}"
