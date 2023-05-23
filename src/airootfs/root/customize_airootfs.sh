@@ -61,10 +61,6 @@ runuser -l liveuser -c 'xdg-user-dirs-gtk-update'
 xdg-user-dirs-update
 xdg-user-dirs-gtk-update
 
-## launch Help app on installed system instead of launching welcome app ##
-
-sed -i -e 's/exodia-welcome/exodia-help/g' /etc/skel/.config/bspwm/bspwmrc
-
 ## fix exodia-grub-theme ##
 # cp -r /usr/share/grub/themes/exodia /boot/grub/themes/
 # sudo grub-mkconfig -o /boot/grub/grub.cfg
