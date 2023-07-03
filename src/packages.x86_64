@@ -1,6 +1,6 @@
-##-------- Base Packages ---------------------##
+# -------- Base Packages -------- #
 
-#alsa-utils
+# alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
@@ -25,7 +25,7 @@ dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-espeakup
+# espeakup
 ethtool
 exfatprogs
 f2fs-tools
@@ -40,8 +40,6 @@ gptfdisk
 hdparm
 hyperv
 intel-ucode
-# ipw2100-fw
-# ipw2200-fw
 irssi
 iw
 iwd
@@ -63,11 +61,10 @@ man-db
 man-pages
 mc
 mdadm
-#memtest86+
+# memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mkinitcpio-firmware
 modemmanager
 mtools
 nano
@@ -79,7 +76,7 @@ nmap
 ntfs-3g
 nvme-cli
 open-iscsi
-open-vm-tools
+# open-vm-tools
 openconnect
 openssh
 openvpn
@@ -90,7 +87,7 @@ pcsclite
 ppp
 pptpclient
 pv
-qemu-guest-agent
+# qemu-guest-agent
 refind
 reflector
 reiserfsprogs
@@ -116,7 +113,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils
+# virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -126,27 +123,9 @@ xfsprogs
 xl2tpd
 zsh
 
-
-#############################
-#     X-Server packages     #
-#############################
-
 # -------- Xorg Packages -------- #
 
 xorg
-xorg-server
-xorg-xbacklight
-xorg-fonts-misc
-xorg-xfd
-xorg-xkill
-xorg-xrandr
-xorg-xrdb
-xorg-xset
-xorg-xev
-xorg-xmodmap
-xorg-xwininfo
-xorg-xsetroot
-xorg-xinit
 
 # -------- Touchpad and Mouse -------- #
 
@@ -161,6 +140,8 @@ xf86-video-vesa
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-ati
+mesa
+mesa-utils
 
 # -------- GPU Drivers (NVIDIA) -------- #
 
@@ -169,23 +150,25 @@ nvidia
 nvidia-utils
 nvidia-settings
 
+# -------- Hypervisors (QEMU/VirtualBox/VMware) -------- #
 
-##########################################
-#     Programs/Tools/utilities/etc..     #
-##########################################
+virtualbox-guest-utils
+qemu-guest-agent
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
 
 # -------- WirelessPackages (Networking/Bluetooth/etc..) -------- #
 
 # Networking #
-
-inetutils
 firefox
-# google-chrome
+google-chrome
 networkmanager
 networkmanager-openvpn
 nethogs
 nm-connection-editor
 net-tools
+wget
 
 # bluetooth #
 
@@ -217,6 +200,12 @@ wmname
 # -------- Printers -------- #
 
 cups
+cups-pdf
+cups-filters
+ghostscript
+gsfonts
+foomatic-db-engine
+foomatic-db
 gutenprint
 
 # -------- Sound -------- #
@@ -238,13 +227,25 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
-zip
-p7zip
-unzip
-unrar
-xarchiver
 xdg-user-dirs
 xdg-user-dirs-gtk
+
+# Archives #
+bzip2
+gzip
+lrzip
+lz4
+lzip
+lzop
+xz
+zstd
+p7zip
+zip
+unzip
+unrar
+unarchiver
+xarchiver
+
 
 ## TUI ##
 ranger
@@ -260,13 +261,14 @@ ffmpegthumbnailer
 mpc
 mpd
 mplayer
+totem
 ncmpcpp
 tumbler
 
 # -------- Terminals -------- #
 
 alacritty
-# xfce4-terminal
+xfce4-terminal
 
 # -------- Docs/Editors/etc.. -------- #
 
@@ -282,6 +284,7 @@ galculator
 
 noto-fonts
 noto-fonts-emoji
+noto-fonts-cjk
 terminus-font
 ttf-dejavu
 
@@ -322,6 +325,24 @@ yad
 
 # -------- Utilities -------- #
 
+# Video #
+inetutils
+libdv
+libmpeg2
+schroedinger
+libtheora
+libvpx
+x264
+x265
+xvidcore
+gstreamer
+gst-libav
+gst-plugins-good
+gst-plugins-ugly
+gst-plugins-bad
+
+arandr
+
 baobab
 dialog
 dunst
@@ -348,30 +369,14 @@ xsettingsd
 kvantum
 qt5ct
 
-# -------- Calamares -------- #
+# -------- Grub / Bootloader -------- #
 
-boost
-calamares
-exodia-calamares
-exodia-install-scripts
-
-# -------- Hypervisors -------- #
-
-virtualbox-guest-utils
-qemu-guest-agent
-open-vm-tools
-xf86-input-vmmouse
-xf86-video-vmware
-
-# -------- Grub -------- #
-
-exodia-grub-theme
 os-prober
 lsb-release
 exodia-repo/grub
+exodia-grub-theme
 
-
-# -------- Plymouth -------- #
+# -------- Plymouth (Splash Screen) -------- #
 
 exodia-repo/plymouth
 exodia-plymouth-theme
@@ -401,12 +406,20 @@ yay
 cava
 lsd
 
+# -------- Calamares -------- #
+
+boost
+calamares
+exodia-calamares
+exodia-install-scripts
+
 #########################################################
 #                    Exodia packages                    #
 #########################################################
 
 tgpt
 gtk-widget-factory-git
+# bsp-layout
 
 # Exodia Artworks #
 
@@ -420,17 +433,25 @@ exodia-pixmaps
 # Exodia Skeleton #
 
 exodia-skeleton
-exodia-text-editors
+
+# exodia-text-editors
+exodia-lfs-pkgs-repo/exodia-NvChad
+exodia-vim
+
 jgmenu
 powershell
 exodia-eww
+
 exodia-bspwm
+exodia-dwm
+exodia-i3wm
+
 exodia-hooks
 
 # Exodia Apps #
 
 about-exodia-os
-exodia-help
+exodia-assistant
 exodia-welcome
 
 ## -------------- TUI Apps -------------- ##
