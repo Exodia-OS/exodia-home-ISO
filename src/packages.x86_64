@@ -398,7 +398,7 @@ light
 networkmanager-dmenu-git
 #obmenu-generator
 perl-linux-desktopfiles
-picom-ibhagwan-git
+picom-jonaburg
 polybar
 timeshift
 xfce-polkit
