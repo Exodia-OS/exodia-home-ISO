@@ -161,8 +161,10 @@ xf86-video-vmware
 # -------- WirelessPackages (Networking/Bluetooth/etc..) -------- #
 
 # Networking #
-firefox
-google-chrome
+
+# firefox
+# google-chrome
+brave-bin
 networkmanager
 networkmanager-openvpn
 nethogs
