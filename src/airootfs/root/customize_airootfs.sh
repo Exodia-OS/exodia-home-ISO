@@ -97,7 +97,7 @@ for cfile in "${rcfg[@]}";
 done
 
 ## make eDEX-UI executable ## 
-# chmod +x /usr/local/bin/eDEX-UI-Linux-x86_64.AppImage
+chmod +x /usr/local/bin/eDEX-UI-Linux-x86_64.AppImage
 
 ## Update xdg-user-dirs for bookmarks in thunar and pcmanfm ##
 runuser -l liveuser -c 'xdg-user-dirs-update'
