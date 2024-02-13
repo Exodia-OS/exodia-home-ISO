@@ -3,8 +3,8 @@ Home Edition source ISO
 
 > **_NOTE:_** 
 > 
-> **if you want to build this ISO you have to build it on an Arch/Arch-based distro.
-> as many users have tried to build the ISO on non-arch-based distros and run into issues.**
+> **if you want to build this ISO you have to build it on an Arch/Arch-based distro.**
+> **as many users have tried to build the ISO on non-arch-based distros and run into issues.**
 
 ### before building:-
 
