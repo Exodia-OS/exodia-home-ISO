@@ -164,7 +164,7 @@ xf86-video-vmware
 
 # firefox
 google-chrome
-# brave-bin
+brave-bin
 networkmanager
 networkmanager-openvpn
 nethogs
