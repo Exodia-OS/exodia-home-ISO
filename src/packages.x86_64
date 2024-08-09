@@ -163,8 +163,8 @@ xf86-video-vmware
 # Networking #
 
 # firefox
-# google-chrome
-brave-bin
+google-chrome
+# brave-bin
 networkmanager
 networkmanager-openvpn
 nethogs

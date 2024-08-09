@@ -6,4 +6,4 @@
 QT_QPA_PLATFORMTHEME=qt5ct
 PATH="/usr/share/exodia/scripts"
 EDITOR=nvim
-BROWSER=brave
+BROWSER=google-chrome-stable
