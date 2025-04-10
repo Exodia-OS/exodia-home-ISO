@@ -215,10 +215,14 @@ gutenprint
 alsa-plugins
 alsa-tools
 alsa-utils
-pavucontrol
+pipewire
 wireplumber
-pipewire-pulse
 pipewire-alsa
+pipewire-pulse
+pipewire-jack
+pulsemixer
+pavucontrol
+gst-plugin-pipewire
 
 # -------- Files -------- #
 
