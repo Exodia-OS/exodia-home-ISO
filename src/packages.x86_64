@@ -171,6 +171,7 @@ nethogs
 nm-connection-editor
 net-tools
 wget
+bmon
 
 # bluetooth #
 
