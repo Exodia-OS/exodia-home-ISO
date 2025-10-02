@@ -236,6 +236,7 @@ thunar-media-tags-plugin
 thunar-volman
 xdg-user-dirs
 xdg-user-dirs-gtk
+bat
 
 # Archives #
 bzip2
